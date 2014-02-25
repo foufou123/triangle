@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle</h1>
+
+      <div class="row">
+        <div class="innerContainer">
+          <div class="colLeft">
+            <h2>Add your sides:</h2>
+
+            <form id="triangle">
+              <div class="form-group">
+                <label for="side1">Side 1:</label><br>
+                <input id="side1" type="text">
+              </div><br>
+
+              <div class="form-group">
+                <label for="side2">Side 2:</label><br>
+                <input id="side2" type="text">
+              </div><br>
+
+              <div class="form-group">
+                <label for="side3">Side 3:</label><br>
+                <input id="side3" type="text">
+              </div><br>
+
+              <button type="submit" class="btn">Add!</button>
+            </form>          
+
+            <div id="result">Your Triangle is of type: <span class="triangle_type"></span></div>
+          </div>
+
+
+          <div class="types">
+            
+            <div id="equilateraL" class="triTypes">
+              <h3>Equilaterals</h3>
+              <ul id="equilaterals">
+              </ul>
+            </div>
+
+            <div id="isosceleS" class="triTypes">
+              <h3>Isosceles</h3>
+              <ul id="isosceles">
+              </ul>
+            </div>
+
+            <div id"scalenE" class="triTypes">
+              <h3>Scalene</h3>
+              <ul id="scalenes">
+              </ul>
+            </div>
+
+          </div>
+
+
+          <div class="chosenTypeDiv">
+            <ul id="chosen"></ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

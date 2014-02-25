@@ -1,0 +1,51 @@
+#result {
+  display: none;
+}
+
+.triangle_type {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.result:hover {
+  text-decoration: underline;
+}
+
+.innerContainer {
+  display:inline-block;
+  float:left;
+  position:relative;
+  clear:both;
+  width:100%;
+
+}
+
+.colLeft {
+  display:inline-block;
+  float:left;
+  position:relative;
+  clear:none;
+  width:300px;
+}
+
+.types {
+  margin-top:50px;
+  display:inline-block;
+  float:right;
+  width:400px;
+  position:relative;
+
+}
+
+.triTypes {
+  display:inline-block;
+  float:left;
+  position:relative;
+  clear:none;
+  width:30%;
+  margin-left:3%;
+}
+
+.triTypes h3 {
+  font-size:18px;
+}
